@@ -36,7 +36,7 @@
   
 # 5. 5대 농산물별 가격 예측에 가장 큰 영향을 끼치는 변수 파악 (SHAP)
 ### 배추
-![image](https://github.com/user-attachments/assets/f979f165-e4e1-47f7-b511-a865c2d32e0f)
+![image](https://github.com/user-attachments/assets/cb017d0f-3ae5-450b-9d6f-5926c219675f)
 ### 양파
 ![image](https://github.com/user-attachments/assets/4017acaf-f458-4965-9f73-9fb3cbb3ca6d)
 ### 마늘
