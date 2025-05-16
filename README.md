@@ -1,11 +1,16 @@
 # Predict agriculture price 프로젝트 설명
-1. 5대 농산물의 데이터를 수집하여, 인공신경망 모델(RNN, LSTM, GRU) 중 각각의 데이터에 가장 좋은 성능을 보이는 모델을 선택
+1. 5대 농산물의 데이터를 수집하여, 전처리 후, 모델링 하여, 인공신경망 모델(RNN, LSTM, GRU) 중 각각의 데이터에 가장 좋은 성능을 보이는 모델을 선택
 2. 해당 모델 안에서, 어떤 변수가 가장 가격예측에 큰 영향을 끼치는지 shap라이브러리를 통해 확인
 3. 해당 모델을 통해 실제 가격을 예측
    
 * 5대 농산물 : 배추, 양파, 마늘, 무, 고추 (한국농촌경제원 지정)  
 [농산물가격예측.pdf](https://github.com/user-attachments/files/18297375/default.pdf)
 
+## 🛠️ 기술 스택
+- Python, Jupyter Notebook
+- Pandas, Numpy, Matplotlib, Seaborn
+- Scikit-learn (MinMaxScaler, train_test_split)
+- TensorFlow/Keras
 
 # 1. 데이터 수집
 * 출처 : KAMIS, 기상자료개방포털, INVESTING, 농넷, KOSIS
